@@ -3,7 +3,7 @@
 @section('title', 'LeeyCrece')
 
 @section('content_header')
-    <h1>Crear categoria</h1>
+    <h1>Crear las categorias</h1>
 @stop
 
 @section('content')
