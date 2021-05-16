@@ -30,6 +30,7 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
+        'profile_photo_path',
     ];
 
     /**
@@ -68,4 +69,9 @@ class User extends Authenticatable
         return $this->hasMany('App\Models\Post');
     }
 
+    //relacion uno a muchos
+
+    public function SocialProfile(){
+        return $this->hasMany('App\Models\SocialProfile');
+    }
 }

@@ -13,7 +13,7 @@ class PostController extends Controller
 
     public function index(){
 
-        if (request()->page) {
+     if (request()->page) {
             $key = 'posts' . request()->page;
         } else {
             $key = 'posts';

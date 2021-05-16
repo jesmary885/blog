@@ -28,8 +28,8 @@
         <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
          {{-- logotipo --}}
             <a href="/" class="flex-shrink-0 flex items-center">
-            <img class="block lg:hidden h-8 w-auto" src="https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg" alt="Workflow">
-            <img class="hidden lg:block h-8 w-auto" src="https://tailwindui.com/img/logos/workflow-logo-indigo-500-mark-white-text.svg" alt="Workflow">
+            <img class="block lg:hidden h-8 w-auto" src="https://cdn.pixabay.com/photo/2020/06/04/13/22/square-5258734_960_720.png" alt="Workflow">
+            <img class="hidden lg:block h-8 w-auto" src="https://cdn.pixabay.com/photo/2020/06/04/13/22/square-5258734_960_720.png" alt="Workflow">
             </a>
           {{-- menu --}}
           <div class="hidden sm:block sm:ml-6">
